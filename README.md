@@ -25,5 +25,5 @@ docker inspect --format='{{ .NetworkSettings.IPAddress }}' $(docker ps -l -q)
 Curl or open in a web browser URL based on IP address followed by `/images/{image_id}` eg.:
 
 ```
-curl http://172.17.0.5/images/123243243
+curl http://172.17.0.2:8000/media/12312321
 ```
